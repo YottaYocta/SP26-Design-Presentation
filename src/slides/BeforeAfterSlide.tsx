@@ -41,7 +41,8 @@ function NewRideCard() {
 
             <span className="text-black/50  bg-[#fef3c7] px-1.5 py-0.5 rounded font-medium">
               <span className="font-bold text-black">3:00</span>
-              PM
+
+              <span className="text-black/50 text-xs">PM</span>
             </span>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
               <path
@@ -52,8 +53,12 @@ function NewRideCard() {
                 strokeLinejoin="round"
               />
             </svg>
-            <span className="font-medium text-black">3:30</span>
-            <span className="text-black/50 text-xs">PM</span>
+
+            <span className="text-black/50  bg-[#fef3c7] px-1.5 py-0.5 rounded font-medium">
+              <span className="font-medium text-black">3:30</span>
+
+              <span className="text-black/50 text-xs">PM</span>
+            </span>
           </div>
           <div className="flex items-center gap-1.5 pl-6">
             <span className="text-black/35 text-xs line-through">2:45 PM</span>
